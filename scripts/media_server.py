@@ -189,4 +189,5 @@ def create_app():
 
 if __name__ == '__main__':
     app = create_app()
-    web.run_app(app, port=5005)
+    port = int(os.environ.get('PORT', 5005))
+    web.run_app(app, port=port)
