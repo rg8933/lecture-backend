@@ -8,8 +8,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy backend scripts and session files
 COPY scripts/ .
-COPY public/thumbnails ./public/thumbnails
-
 # Ensure public/thumbnails exists
 RUN mkdir -p public/thumbnails
 
