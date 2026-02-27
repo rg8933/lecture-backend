@@ -1,0 +1,39 @@
+{
+  "platforms": {
+    "marrow": {
+      "name": "Marrow",
+      "years": {
+        "2nd Year": {
+          "Pathology": "https://t.me/c/3113795597/12"
+        },
+        "1st Year": {
+          "Biochemistry": "https://t.me/c/3113795597/12"
+        },
+        "3rd Year": {
+          "ENT": "https://t.me/c/3113795597/12",
+          "Ophthalmology": "https://t.me/c/3113795597/12",
+          "Community Medicine": "https://t.me/c/3113795597/12",
+          "FMT": "https://t.me/c/3113795597/12"
+        },
+        "4th Year": {
+          "Pediatrics": "https://t.me/c/3113795597/12",
+          "Surgery": "https://t.me/c/3113795597/12",
+          "OBG": "https://t.me/c/3113795597/12",
+          "Medicine": "https://t.me/c/3113795597/12",
+          "Orthopaedics": "https://t.me/c/3113795597/12",
+          "Radiology": "https://t.me/c/3113795597/12",
+          "Anaesthesiology": "https://t.me/c/3113795597/12",
+          "Dermatology": "https://t.me/c/3113795597/12"
+        }
+      }
+    },
+    "prepladder": {
+      "name": "Prepladder",
+      "years": {}
+    },
+    "egurukul": {
+      "name": "E-Gurukul",
+      "years": {}
+    }
+  }
+}

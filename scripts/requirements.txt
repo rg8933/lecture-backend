@@ -1,0 +1,5 @@
+telethon
+aiohttp
+supabase
+python-dotenv
+cryptg
