@@ -102,7 +102,18 @@ async def stream_video(request):
 async def start_telegram(app):
     logger.info("Starting Telegram client...")
     client = TelegramClient(SESSION_NAME, API_ID, API_HASH)
-    await client.start()
+    
+    bot_token = os.getenv('TELEGRAM_BOT_TOKEN')
+    
+    if bot_token:
+        logger.info("Bot token found. Starting via bot token...")
+        await client.start(bot_token=bot_token)
+    else:
+        logger.info("No bot token provided. Attempting normal user start...")
+        # In cloud environments without interactive terminal, this will crash
+        # if the session file isn't pre-populated and valid.
+        await client.start()
+        
     app['telegram_client'] = client
     logger.info("Telegram client started.")
 
